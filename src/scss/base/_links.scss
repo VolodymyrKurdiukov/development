@@ -1,3 +1,36 @@
+.left-decor {
+	&__block {
+		display: block;
+		width: 160px;
+		height: 80px;
+		background-color: #ffffff;
+		margin: 0px 0px 80px 0px;
+		&:last-child {
+			margin: 0;
+		}
+	}
+}
+.bottom-decor {
+	&__line {
+	}
+
+	&__burger {
+	}
+}
+.right-decor {
+	&__block {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0px 0px 80px 0px;
+		height: 80px;
+		width: 80px;
+		&:last-child {
+			margin: 0;
+		}
+	}
+}
+
 .ibg {
 	background-position: center;
 	background-size: cover;
