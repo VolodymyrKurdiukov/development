@@ -1,9 +1,106 @@
-@media (max-width: 767.98px) {
+@media (min-width: 991.98px) {
+}
+@media (min-width: 1439.98px) {
+	.decor-right {
+		&::before {
+			content: "";
+			position: absolute;
+			width: 1px;
+			height: 88px;
+			background-color: #ffffff;
+			top: -115px;
+			left: 50%;
+			transform: translate(-50%);
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			width: 1px;
+			height: 88px;
+			background-color: #ffffff;
+			bottom: -125px;
+			left: 50%;
+			transform: translate(-50%);
+		}
+	}
+}
+@media (max-width: 1439.98px) {
 	.mainscreen {
 		&__container {
-			&::after {
-				width: 90px;
-				height: 90px;
+			padding: 240px 0px 0px 145px;
+		}
+	}
+	.decor-bottom {
+		&::before {
+			top: -245px;
+		}
+		&::after {
+			bottom: 20px;
+		}
+	}
+}
+@media (max-width: 1199.98px) {
+	.mainscreen {
+		&__container {
+			padding: 240px 0px 0px 160px;
+		}
+	}
+	.decor-bottom {
+		bottom: 0;
+	}
+}
+@media (max-width: 991.98px) {
+	.mainscreen {
+		&__container {
+			padding: 280px 0px 0px 170px;
+		}
+	}
+	.decor-left {
+		span {
+			margin: 0px 0px 25% 0px;
+			&:last-child {
+				margin: 0px 0px 0px 0px;
+			}
+		}
+	}
+	.decor-right {
+		&__item {
+			margin: 0px 0px 50% 0px;
+			&:last-child {
+				margin: 0px 0px 0px 0px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767.98px) {
+	.decor-left,
+	.decor-right {
+		display: none;
+	}
+	.decor-bottom {
+		bottom: -60px;
+		&::before {
+			height: 44px;
+			top: -205px;
+		}
+		&::after {
+			height: 44px;
+			bottom: 62px;
+		}
+	}
+	.mainscreen {
+		&__container {
+			margin: 0px auto;
+			padding: 100px 0px 0px 50px;
+			&::before {
+				content: "";
+				position: absolute;
+				width: 85px;
+				height: 85px;
+				top: 0;
+				right: 0;
+				background-color: #000;
 			}
 		}
 		&__img {
@@ -12,28 +109,20 @@
 		}
 	}
 }
+@media (max-height: 500px) {
+	.decor-bottom {
+		display: none;
+	}
+}
 
 @media (max-width: 575.98px) {
 	.mainscreen {
 		&__container {
-			&::after {
-				display: none;
-			}
-			&::before {
-				display: none;
-			}
-		}
-		&__img {
-			top: 0;
-			left: 0;
+			padding: 200px 15px;
 		}
 		&__title {
-			font-size: 42px;
-			line-height: 42px;
-		}
-
-		&__subtitle {
-			font-size: 20px;
+			font-size: 40px;
+			line-height: 40px;
 		}
 	}
 }
