@@ -1,0 +1,19 @@
+.build {
+	margin: 160px 0px 360px 0px;
+	position: relative;
+	&__row {
+		display: flex;
+		margin: 0px -40px 150px -40px;
+	}
+
+	&__column {
+		flex: 0 0 33.333%;
+		padding: 0px 40px;
+	}
+
+	&__item {
+	}
+
+	&__link {
+	}
+}
