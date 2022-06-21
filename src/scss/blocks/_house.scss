@@ -1,0 +1,97 @@
+.house {
+	margin: 0px 0px 136px 0px;
+	&__top {
+	}
+
+	&__header {
+	}
+
+	&__conrainer {
+	}
+
+	&__content {
+		margin: -160px 0px 0px 0px;
+	}
+
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0px -40px;
+	}
+
+	&__column {
+		flex: 0 0 33.333%;
+		padding: 0px 40px;
+	}
+
+	&__item {
+	}
+}
+.top-house {
+	position: relative;
+	background-color: #000;
+	height: 630px;
+	z-index: -2;
+	&__decor {
+	}
+
+	&__container {
+		padding: 111px 15px 0px 15px;
+	}
+}
+
+.item-house {
+	text-align: center;
+	a {
+		display: block;
+		color: #7f7f7f;
+		font-size: 16px;
+		line-height: 28px;
+		text-align: left;
+		padding: 0px 0px 0px 30px;
+		margin: 0px 0px 24px 0px;
+	}
+	&__top {
+		margin: 0px 0px 50px 0px;
+	}
+
+	&__location {
+		background: url("../img/icons/item-house__top/01.svg") left no-repeat;
+	}
+
+	&__type {
+		background: url("../img/icons/item-house__top/02.svg") left no-repeat;
+	}
+
+	&__class {
+		background: url("../img/icons/item-house__top/03.png") left no-repeat;
+	}
+
+	&__date {
+		background: url("../img/icons/item-house__top/04.png") left no-repeat;
+	}
+}
+.top-item-house {
+	display: block;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 320px;
+	height: 320px;
+	transition: all 0.5s ease;
+	&__icon {
+	}
+
+	&__img {
+		position: absolute;
+		flex: 1 1 100%;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		box-shadow: 0 40px 30px rgba(0, 0, 0, 0.5);
+	}
+}

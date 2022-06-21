@@ -24,6 +24,9 @@
 		line-height: 48px;
 		text-align: left;
 		max-width: 720px;
+		&-w {
+			color: #fff;
+		}
 	}
 
 	&__subtitle {
@@ -34,6 +37,9 @@
 		line-height: 32px;
 		text-transform: uppercase;
 		max-width: 320px;
+		&-w {
+			color: #333333;
+		}
 	}
 	@media (max-width: 1199.98px) {
 		margin: 0 -30px 40px -30px;
@@ -77,7 +83,7 @@
 		&__subtitle {
 			font-size: 16px;
 		}
-		&__column{
+		&__column {
 			flex: 1 1 100%;
 		}
 	}
