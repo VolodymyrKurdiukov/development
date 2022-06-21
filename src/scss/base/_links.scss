@@ -450,6 +450,7 @@
 		width: 80px;
 		height: 1px;
 		background-color: #00adef;
+		transition: all 0.5s ease;
 	}
 	&::after {
 		content: "";
@@ -459,6 +460,7 @@
 		bottom: -25px;
 		left: 0;
 		background-color: #00adef;
+		transition: all 0.5s ease;
 	}
 }
 
