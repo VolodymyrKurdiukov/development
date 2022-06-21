@@ -1,0 +1,77 @@
+.phone {
+	position: relative;
+	margin: 0px 0px 208px 0px;
+	&__decor {
+	}
+
+	&__container {
+	}
+
+	&__top {
+	}
+
+	&__row {
+		display: flex;
+		margin: 0px -40px 30px -40px;
+	}
+
+	&__column {
+		padding: 0px 40px;
+		margin: 0px 0px 80px 0px;
+	}
+
+	&__item {
+	}
+
+	&__link {
+	}
+}
+
+.top-phone {
+	&__row {
+		display: flex;
+		position: relative;
+	}
+
+	&__column {
+		flex: 0 0 50%;
+	}
+
+	&__title {
+		font-family: "Museo Sans Cyrl 100";
+		font-size: 32px;
+		line-height: 48px;
+		text-align: left;
+		padding: 90px 0px 0px 0px;
+		margin: 0px 0px 105px 0px;
+	}
+
+	&__img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: -1;
+	}
+}
+.item-phone {
+	width: 240px;
+	height: 240px;
+	background-color: #00adef;
+	position: relative;
+	&__icon {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	&__text {
+		max-width: 160px;
+		color: #ffffff;
+		font-family: "Museo Sans Cyrl 900";
+		font-size: 20px;
+		line-height: 32px;
+		position: absolute;
+		bottom: 50px;
+		right: 40px;
+	}
+}
