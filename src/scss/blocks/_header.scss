@@ -6,7 +6,6 @@
 	height: 160px;
 	padding: 0px 70px;
 	z-index: 50;
-
 	&__burger {
 		cursor: pointer;
 		display: block;
@@ -56,7 +55,6 @@
 
 	&__column {
 		flex: 0 0 33.333%;
-		
 	}
 
 	&__fb {
@@ -70,7 +68,7 @@
 		width: 185px;
 		position: relative;
 		z-index: 10;
-		img{
+		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
@@ -98,8 +96,6 @@
 	}
 }
 .menu {
-	
-
 	&__list {
 		li {
 			margin: 0px 0px 30px 0px;

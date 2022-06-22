@@ -5,6 +5,11 @@ $(document).ready(function () {
 		$('.header__burger,.header__menu').toggleClass('active');
 		$('body').toggleClass('lock');
 	});
+	$(window).scroll(function () {
+		var top = $(document).scrollTop();
+		if (top < 790) $(".header").css({ background: 'none'});
+		else $(".header").css({ background: 'rgba(0, 0, 0, 0.82)' });
+	});
 });
 
 function ibg() {
@@ -21,8 +26,3 @@ ibg();
 
 new WOW().init();
 
-$(window).scroll(function() {
-	var top = $(document).scrollTop();
-	if (top < 790) $(".header").css({background:'none'});
-	else $(".header").css({ background:'rgba(0, 0, 0, 0.82)'});
-});
