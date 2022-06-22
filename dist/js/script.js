@@ -20,3 +20,9 @@ function ibg() {
 ibg();
 
 new WOW().init();
+
+$(window).scroll(function() {
+	var top = $(document).scrollTop();
+	if (top < 790) $(".header").css({background:'none'});
+	else $(".header").css({ background:'rgba(0, 0, 0, 0.82)'});
+});
