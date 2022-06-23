@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 $(window).scroll(function () {
 	var top = $(document).scrollTop();
-	if (top < 790) $(".header").css({ background: 'none' });
+	if (top < 790) $(".header").css({ background: 'none', transition: ' all 0.5s ease' });
 	else $(".header").css({ background: 'rgba(0, 0, 0, 0.82)' });
 });
 
